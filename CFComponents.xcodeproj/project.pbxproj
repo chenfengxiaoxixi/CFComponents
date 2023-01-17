@@ -10,9 +10,12 @@
 		5F19B0F029768CB600B78A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B0EF29768CB600B78A23 /* AppDelegate.swift */; };
 		5F19B0F229768CB600B78A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B0F129768CB600B78A23 /* SceneDelegate.swift */; };
 		5F19B0F429768CB600B78A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B0F329768CB600B78A23 /* ViewController.swift */; };
-		5F19B0F729768CB600B78A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B0F529768CB600B78A23 /* Main.storyboard */; };
 		5F19B0F929768CB600B78A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B0F829768CB600B78A23 /* Assets.xcassets */; };
 		5F19B0FC29768CB600B78A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B0FA29768CB600B78A23 /* LaunchScreen.storyboard */; };
+		5F19B1052976934500B78A23 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1042976934500B78A23 /* UIView+Extension.swift */; };
+		5F19B10A297693A800B78A23 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B109297693A800B78A23 /* Configs.swift */; };
+		5F19B10D2976972B00B78A23 /* CFAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B10C2976972B00B78A23 /* CFAlertView.swift */; };
+		5F19B10F29769A2A00B78A23 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		5F19B0EF29768CB600B78A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F19B0F129768CB600B78A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F19B0F329768CB600B78A23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F19B0F629768CB600B78A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F19B0F829768CB600B78A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F19B0FB29768CB600B78A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F19B0FD29768CB600B78A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F19B1042976934500B78A23 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5F19B109297693A800B78A23 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		5F19B10C2976972B00B78A23 /* CFAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAlertView.swift; sourceTree = "<group>"; };
+		5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		5F19B0EE29768CB600B78A23 /* CFComponents */ = {
 			isa = PBXGroup;
 			children = (
+				5F19B10B297696DD00B78A23 /* Components */,
+				5F19B1082976939B00B78A23 /* Configs */,
+				5F19B103297692B500B78A23 /* Extension */,
 				5F19B0EF29768CB600B78A23 /* AppDelegate.swift */,
 				5F19B0F129768CB600B78A23 /* SceneDelegate.swift */,
 				5F19B0F329768CB600B78A23 /* ViewController.swift */,
-				5F19B0F529768CB600B78A23 /* Main.storyboard */,
 				5F19B0F829768CB600B78A23 /* Assets.xcassets */,
 				5F19B0FA29768CB600B78A23 /* LaunchScreen.storyboard */,
 				5F19B0FD29768CB600B78A23 /* Info.plist */,
 			);
 			path = CFComponents;
+			sourceTree = "<group>";
+		};
+		5F19B103297692B500B78A23 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B1042976934500B78A23 /* UIView+Extension.swift */,
+				5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5F19B1082976939B00B78A23 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B109297693A800B78A23 /* Configs.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		5F19B10B297696DD00B78A23 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B10C2976972B00B78A23 /* CFAlertView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +160,6 @@
 			files = (
 				5F19B0FC29768CB600B78A23 /* LaunchScreen.storyboard in Resources */,
 				5F19B0F929768CB600B78A23 /* Assets.xcassets in Resources */,
-				5F19B0F729768CB600B78A23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F19B10F29769A2A00B78A23 /* UIColor+Extension.swift in Sources */,
+				5F19B10D2976972B00B78A23 /* CFAlertView.swift in Sources */,
+				5F19B10A297693A800B78A23 /* Configs.swift in Sources */,
 				5F19B0F429768CB600B78A23 /* ViewController.swift in Sources */,
 				5F19B0F029768CB600B78A23 /* AppDelegate.swift in Sources */,
+				5F19B1052976934500B78A23 /* UIView+Extension.swift in Sources */,
 				5F19B0F229768CB600B78A23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +183,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F19B0F529768CB600B78A23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F19B0F629768CB600B78A23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F19B0FA29768CB600B78A23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +320,6 @@
 				INFOPLIST_FILE = CFComponents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -321,7 +348,6 @@
 				INFOPLIST_FILE = CFComponents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
