@@ -111,7 +111,7 @@ extension ViewController {
             
         case "下拉选项":
             let dropListView = ESDropListView(datas: testArray4)
-            dropListView.show(x: 150, y: 240)
+            dropListView.show(x: 230, y: 440)
             dropListView.didSelectedRowCallback = { [unowned self] (row) in
 
                 self.displayList[clickIndexPath.row].content = testArray4[row].title

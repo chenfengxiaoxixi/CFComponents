@@ -31,6 +31,19 @@ class CompoundComponentController: UIViewController {
         configDropData()
         
         setUpDropView()
+        
+        let backBarItem = UIBarButtonItem(
+            image: UIImage(named: "left_back_icon.png"),
+            style: .plain,
+            target: self,
+            action: #selector(backAction))
+        
+        navigationItem.leftBarButtonItem = backBarItem
+        navigationItem.leftBarButtonItem?.tintColor = .black
+    }
+    
+    @objc func backAction() {
+        navigationController?.popViewController(animated: true)
     }
     
     func configDropData() {
