@@ -99,3 +99,20 @@ extension UIView {
         self.frame.origin.y + self.frame.size.height
     }
 }
+
+extension UIView {
+    
+    /**
+     设置阴影
+    */
+    func setShadowWith(bounds: CGRect) {
+        
+        layer.cornerRadius = 10
+        let shadowPath = UIBezierPath(rect: bounds)
+        layer.masksToBounds = false
+        layer.shadowColor = UIColor.gray.cgColor
+        layer.shadowOffset = CGSize(width: 0.0, height: 6.0)
+        layer.shadowOpacity = 0.1
+        layer.shadowPath = shadowPath.cgPath
+    }
+}

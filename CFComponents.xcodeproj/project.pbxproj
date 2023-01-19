@@ -16,6 +16,36 @@
 		5F19B10A297693A800B78A23 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B109297693A800B78A23 /* Configs.swift */; };
 		5F19B10D2976972B00B78A23 /* CFAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B10C2976972B00B78A23 /* CFAlertView.swift */; };
 		5F19B10F29769A2A00B78A23 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */; };
+		5F19B11529778FEE00B78A23 /* PMSingleSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B11329778FEE00B78A23 /* PMSingleSelectController.swift */; };
+		5F19B11629778FEE00B78A23 /* PMSingleSelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B11429778FEE00B78A23 /* PMSingleSelectController.xib */; };
+		5F19B1182977923D00B78A23 /* EXFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1172977923D00B78A23 /* EXFuncViewController.swift */; };
+		5F19B11A297792DC00B78A23 /* EXProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B119297792DC00B78A23 /* EXProtocolViewController.swift */; };
+		5F19B11E29779C8A00B78A23 /* PMMultipleSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B11C29779C8A00B78A23 /* PMMultipleSelectController.swift */; };
+		5F19B11F29779C8A00B78A23 /* PMMultipleSelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B11D29779C8A00B78A23 /* PMMultipleSelectController.xib */; };
+		5F19B1252977D1E300B78A23 /* ESPopupBottomListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1212977D1E300B78A23 /* ESPopupBottomListController.swift */; };
+		5F19B1262977D1E300B78A23 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1222977D1E300B78A23 /* PresentationManager.swift */; };
+		5F19B1272977D1E300B78A23 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1232977D1E300B78A23 /* PresentationController.swift */; };
+		5F19B1282977D1E300B78A23 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1242977D1E300B78A23 /* TransitionAnimator.swift */; };
+		5F19B12D2977DA4300B78A23 /* BusinessDataDateHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B12A2977DA4300B78A23 /* BusinessDataDateHeaderView.xib */; };
+		5F19B12E2977DA4300B78A23 /* ESDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B12B2977DA4300B78A23 /* ESDatePickerView.swift */; };
+		5F19B12F2977DA4300B78A23 /* BusinessDataDateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B12C2977DA4300B78A23 /* BusinessDataDateHeaderView.swift */; };
+		5F19B1312977DAAB00B78A23 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1302977DAAB00B78A23 /* String+Extension.swift */; };
+		5F19B1332977DABD00B78A23 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1322977DABD00B78A23 /* Date+Extension.swift */; };
+		5F19B1382977E0D000B78A23 /* EDDropMenuAnimationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1352977E0D000B78A23 /* EDDropMenuAnimationFunc.swift */; };
+		5F19B1392977E0D000B78A23 /* ESDropMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1362977E0D000B78A23 /* ESDropMenuView.swift */; };
+		5F19B13A2977E0D000B78A23 /* ESDropMenuProtocolImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1372977E0D000B78A23 /* ESDropMenuProtocolImplement.swift */; };
+		5F19B13D2977E21400B78A23 /* DropMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B13C2977E21400B78A23 /* DropMenuController.swift */; };
+		5F19B1452977ED1F00B78A23 /* ESHistoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B13F2977ED1F00B78A23 /* ESHistoryCollectionCell.swift */; };
+		5F19B1462977ED1F00B78A23 /* ESHistoryCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1402977ED1F00B78A23 /* ESHistoryCollectionFlowLayout.swift */; };
+		5F19B1472977ED1F00B78A23 /* ESHistoryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F19B1412977ED1F00B78A23 /* ESHistoryCollectionCell.xib */; };
+		5F19B1482977ED1F00B78A23 /* ESSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1422977ED1F00B78A23 /* ESSearchController.swift */; };
+		5F19B1492977ED1F00B78A23 /* ESSearchProtocolImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1432977ED1F00B78A23 /* ESSearchProtocolImplement.swift */; };
+		5F19B14A2977ED1F00B78A23 /* SearchCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1442977ED1F00B78A23 /* SearchCacheManager.swift */; };
+		5F19B14C2977EDBC00B78A23 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B14B2977EDBC00B78A23 /* Array+Extension.swift */; };
+		5F19B14E2978D42D00B78A23 /* ESPictureZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B14D2978D42D00B78A23 /* ESPictureZoomController.swift */; };
+		5F19B1502978DC6500B78A23 /* ESDropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B14F2978DC6500B78A23 /* ESDropListView.swift */; };
+		5F19B1522978E18900B78A23 /* CompoundComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1512978E18900B78A23 /* CompoundComponentController.swift */; };
+		5F19B1542978E25100B78A23 /* PMLeftSlidingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B1532978E25100B78A23 /* PMLeftSlidingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +60,36 @@
 		5F19B109297693A800B78A23 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
 		5F19B10C2976972B00B78A23 /* CFAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAlertView.swift; sourceTree = "<group>"; };
 		5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5F19B11329778FEE00B78A23 /* PMSingleSelectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMSingleSelectController.swift; sourceTree = "<group>"; };
+		5F19B11429778FEE00B78A23 /* PMSingleSelectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMSingleSelectController.xib; sourceTree = "<group>"; };
+		5F19B1172977923D00B78A23 /* EXFuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXFuncViewController.swift; sourceTree = "<group>"; };
+		5F19B119297792DC00B78A23 /* EXProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXProtocolViewController.swift; sourceTree = "<group>"; };
+		5F19B11C29779C8A00B78A23 /* PMMultipleSelectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMMultipleSelectController.swift; sourceTree = "<group>"; };
+		5F19B11D29779C8A00B78A23 /* PMMultipleSelectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMMultipleSelectController.xib; sourceTree = "<group>"; };
+		5F19B1212977D1E300B78A23 /* ESPopupBottomListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPopupBottomListController.swift; sourceTree = "<group>"; };
+		5F19B1222977D1E300B78A23 /* PresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		5F19B1232977D1E300B78A23 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		5F19B1242977D1E300B78A23 /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		5F19B12A2977DA4300B78A23 /* BusinessDataDateHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessDataDateHeaderView.xib; sourceTree = "<group>"; };
+		5F19B12B2977DA4300B78A23 /* ESDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESDatePickerView.swift; sourceTree = "<group>"; };
+		5F19B12C2977DA4300B78A23 /* BusinessDataDateHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessDataDateHeaderView.swift; sourceTree = "<group>"; };
+		5F19B1302977DAAB00B78A23 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5F19B1322977DABD00B78A23 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		5F19B1352977E0D000B78A23 /* EDDropMenuAnimationFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDDropMenuAnimationFunc.swift; sourceTree = "<group>"; };
+		5F19B1362977E0D000B78A23 /* ESDropMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESDropMenuView.swift; sourceTree = "<group>"; };
+		5F19B1372977E0D000B78A23 /* ESDropMenuProtocolImplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESDropMenuProtocolImplement.swift; sourceTree = "<group>"; };
+		5F19B13C2977E21400B78A23 /* DropMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropMenuController.swift; sourceTree = "<group>"; };
+		5F19B13F2977ED1F00B78A23 /* ESHistoryCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESHistoryCollectionCell.swift; sourceTree = "<group>"; };
+		5F19B1402977ED1F00B78A23 /* ESHistoryCollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESHistoryCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		5F19B1412977ED1F00B78A23 /* ESHistoryCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESHistoryCollectionCell.xib; sourceTree = "<group>"; };
+		5F19B1422977ED1F00B78A23 /* ESSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSearchController.swift; sourceTree = "<group>"; };
+		5F19B1432977ED1F00B78A23 /* ESSearchProtocolImplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSearchProtocolImplement.swift; sourceTree = "<group>"; };
+		5F19B1442977ED1F00B78A23 /* SearchCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCacheManager.swift; sourceTree = "<group>"; };
+		5F19B14B2977EDBC00B78A23 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		5F19B14D2978D42D00B78A23 /* ESPictureZoomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPictureZoomController.swift; sourceTree = "<group>"; };
+		5F19B14F2978DC6500B78A23 /* ESDropListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESDropListView.swift; sourceTree = "<group>"; };
+		5F19B1512978E18900B78A23 /* CompoundComponentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundComponentController.swift; sourceTree = "<group>"; };
+		5F19B1532978E25100B78A23 /* PMLeftSlidingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMLeftSlidingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +125,12 @@
 				5F19B10B297696DD00B78A23 /* Components */,
 				5F19B1082976939B00B78A23 /* Configs */,
 				5F19B103297692B500B78A23 /* Extension */,
+				5F19B13B2977E1BF00B78A23 /* Controller */,
 				5F19B0EF29768CB600B78A23 /* AppDelegate.swift */,
 				5F19B0F129768CB600B78A23 /* SceneDelegate.swift */,
 				5F19B0F329768CB600B78A23 /* ViewController.swift */,
+				5F19B1172977923D00B78A23 /* EXFuncViewController.swift */,
+				5F19B119297792DC00B78A23 /* EXProtocolViewController.swift */,
 				5F19B0F829768CB600B78A23 /* Assets.xcassets */,
 				5F19B0FA29768CB600B78A23 /* LaunchScreen.storyboard */,
 				5F19B0FD29768CB600B78A23 /* Info.plist */,
@@ -80,6 +143,9 @@
 			children = (
 				5F19B1042976934500B78A23 /* UIView+Extension.swift */,
 				5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */,
+				5F19B1302977DAAB00B78A23 /* String+Extension.swift */,
+				5F19B1322977DABD00B78A23 /* Date+Extension.swift */,
+				5F19B14B2977EDBC00B78A23 /* Array+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -95,9 +161,89 @@
 		5F19B10B297696DD00B78A23 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5F19B13E2977EC7C00B78A23 /* ESSearchController */,
+				5F19B1342977E0A200B78A23 /* ESDropMenuView */,
+				5F19B1292977DA1200B78A23 /* ESDatePickerView */,
+				5F19B1202977D14000B78A23 /* PopupListController */,
+				5F19B11B29779C2A00B78A23 /* PMMultipleSelectController */,
+				5F19B11229778FC500B78A23 /* PMSingleSelectController */,
 				5F19B10C2976972B00B78A23 /* CFAlertView.swift */,
+				5F19B14D2978D42D00B78A23 /* ESPictureZoomController.swift */,
+				5F19B14F2978DC6500B78A23 /* ESDropListView.swift */,
+				5F19B1532978E25100B78A23 /* PMLeftSlidingController.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		5F19B11229778FC500B78A23 /* PMSingleSelectController */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B11329778FEE00B78A23 /* PMSingleSelectController.swift */,
+				5F19B11429778FEE00B78A23 /* PMSingleSelectController.xib */,
+			);
+			path = PMSingleSelectController;
+			sourceTree = "<group>";
+		};
+		5F19B11B29779C2A00B78A23 /* PMMultipleSelectController */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B11C29779C8A00B78A23 /* PMMultipleSelectController.swift */,
+				5F19B11D29779C8A00B78A23 /* PMMultipleSelectController.xib */,
+			);
+			path = PMMultipleSelectController;
+			sourceTree = "<group>";
+		};
+		5F19B1202977D14000B78A23 /* PopupListController */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B1232977D1E300B78A23 /* PresentationController.swift */,
+				5F19B1222977D1E300B78A23 /* PresentationManager.swift */,
+				5F19B1242977D1E300B78A23 /* TransitionAnimator.swift */,
+				5F19B1212977D1E300B78A23 /* ESPopupBottomListController.swift */,
+			);
+			path = PopupListController;
+			sourceTree = "<group>";
+		};
+		5F19B1292977DA1200B78A23 /* ESDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B12C2977DA4300B78A23 /* BusinessDataDateHeaderView.swift */,
+				5F19B12A2977DA4300B78A23 /* BusinessDataDateHeaderView.xib */,
+				5F19B12B2977DA4300B78A23 /* ESDatePickerView.swift */,
+			);
+			path = ESDatePickerView;
+			sourceTree = "<group>";
+		};
+		5F19B1342977E0A200B78A23 /* ESDropMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B1362977E0D000B78A23 /* ESDropMenuView.swift */,
+				5F19B1352977E0D000B78A23 /* EDDropMenuAnimationFunc.swift */,
+				5F19B1372977E0D000B78A23 /* ESDropMenuProtocolImplement.swift */,
+			);
+			path = ESDropMenuView;
+			sourceTree = "<group>";
+		};
+		5F19B13B2977E1BF00B78A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B13C2977E21400B78A23 /* DropMenuController.swift */,
+				5F19B1512978E18900B78A23 /* CompoundComponentController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F19B13E2977EC7C00B78A23 /* ESSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				5F19B13F2977ED1F00B78A23 /* ESHistoryCollectionCell.swift */,
+				5F19B1412977ED1F00B78A23 /* ESHistoryCollectionCell.xib */,
+				5F19B1402977ED1F00B78A23 /* ESHistoryCollectionFlowLayout.swift */,
+				5F19B1422977ED1F00B78A23 /* ESSearchController.swift */,
+				5F19B1432977ED1F00B78A23 /* ESSearchProtocolImplement.swift */,
+				5F19B1442977ED1F00B78A23 /* SearchCacheManager.swift */,
+			);
+			path = ESSearchController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +304,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F19B1472977ED1F00B78A23 /* ESHistoryCollectionCell.xib in Resources */,
+				5F19B11F29779C8A00B78A23 /* PMMultipleSelectController.xib in Resources */,
 				5F19B0FC29768CB600B78A23 /* LaunchScreen.storyboard in Resources */,
+				5F19B12D2977DA4300B78A23 /* BusinessDataDateHeaderView.xib in Resources */,
+				5F19B11629778FEE00B78A23 /* PMSingleSelectController.xib in Resources */,
 				5F19B0F929768CB600B78A23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,12 +320,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F19B12E2977DA4300B78A23 /* ESDatePickerView.swift in Sources */,
+				5F19B14C2977EDBC00B78A23 /* Array+Extension.swift in Sources */,
 				5F19B10F29769A2A00B78A23 /* UIColor+Extension.swift in Sources */,
 				5F19B10D2976972B00B78A23 /* CFAlertView.swift in Sources */,
+				5F19B1482977ED1F00B78A23 /* ESSearchController.swift in Sources */,
+				5F19B13A2977E0D000B78A23 /* ESDropMenuProtocolImplement.swift in Sources */,
+				5F19B1382977E0D000B78A23 /* EDDropMenuAnimationFunc.swift in Sources */,
+				5F19B14E2978D42D00B78A23 /* ESPictureZoomController.swift in Sources */,
+				5F19B1542978E25100B78A23 /* PMLeftSlidingController.swift in Sources */,
+				5F19B1522978E18900B78A23 /* CompoundComponentController.swift in Sources */,
+				5F19B1282977D1E300B78A23 /* TransitionAnimator.swift in Sources */,
+				5F19B1452977ED1F00B78A23 /* ESHistoryCollectionCell.swift in Sources */,
+				5F19B1182977923D00B78A23 /* EXFuncViewController.swift in Sources */,
+				5F19B1462977ED1F00B78A23 /* ESHistoryCollectionFlowLayout.swift in Sources */,
+				5F19B1252977D1E300B78A23 /* ESPopupBottomListController.swift in Sources */,
+				5F19B13D2977E21400B78A23 /* DropMenuController.swift in Sources */,
+				5F19B11A297792DC00B78A23 /* EXProtocolViewController.swift in Sources */,
 				5F19B10A297693A800B78A23 /* Configs.swift in Sources */,
+				5F19B11E29779C8A00B78A23 /* PMMultipleSelectController.swift in Sources */,
+				5F19B12F2977DA4300B78A23 /* BusinessDataDateHeaderView.swift in Sources */,
+				5F19B1312977DAAB00B78A23 /* String+Extension.swift in Sources */,
 				5F19B0F429768CB600B78A23 /* ViewController.swift in Sources */,
+				5F19B1502978DC6500B78A23 /* ESDropListView.swift in Sources */,
+				5F19B1392977E0D000B78A23 /* ESDropMenuView.swift in Sources */,
+				5F19B11529778FEE00B78A23 /* PMSingleSelectController.swift in Sources */,
+				5F19B1272977D1E300B78A23 /* PresentationController.swift in Sources */,
+				5F19B1492977ED1F00B78A23 /* ESSearchProtocolImplement.swift in Sources */,
+				5F19B1262977D1E300B78A23 /* PresentationManager.swift in Sources */,
 				5F19B0F029768CB600B78A23 /* AppDelegate.swift in Sources */,
+				5F19B14A2977ED1F00B78A23 /* SearchCacheManager.swift in Sources */,
 				5F19B1052976934500B78A23 /* UIView+Extension.swift in Sources */,
+				5F19B1332977DABD00B78A23 /* Date+Extension.swift in Sources */,
 				5F19B0F229768CB600B78A23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +498,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,9 +507,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chenfengxiaoxixizz.CFComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,6 +530,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,9 +539,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chenfengxiaoxixizz.CFComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
