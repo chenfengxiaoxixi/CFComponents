@@ -7,6 +7,8 @@
 
 ![演示图1](https://github.com/chenfengxiaoxixi/CFComponents/blob/main/演示图/演示图1.gif)
 ![演示图2](https://github.com/chenfengxiaoxixi/CFComponents/blob/main/演示图/演示图2.gif)
+![演示图3](https://github.com/chenfengxiaoxixi/CFComponents/blob/main/演示图/演示图3.gif)
+![演示图4](https://github.com/chenfengxiaoxixi/CFComponents/blob/main/演示图/演示图4.gif)
 
 弹窗：
 
