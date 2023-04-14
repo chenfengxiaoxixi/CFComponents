@@ -73,6 +73,7 @@ class ViewController: UIViewController {
         displayList.append(DisplayModel(title: "查看图片", type: .enterNextVc))
         displayList.append(DisplayModel(title: "下拉选项", type: .showInVc))
         displayList.append(DisplayModel(title: "复合组件", type: .enterNextVc))
+        displayList.append(DisplayModel(title: "滚动图表", type: .enterNextVc))
     }
     
     func configTestList() {

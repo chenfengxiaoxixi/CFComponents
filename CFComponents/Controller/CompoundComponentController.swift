@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CompoundComponentController: UIViewController {
+class CompoundComponentController: BaseViewController {
 
     var dropMenuView: ESDropMenuView!
     var dropMenuViewTwo: ESDropMenuView!
@@ -25,27 +25,12 @@ class CompoundComponentController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .themeBackGround()
         
         configDropData()
         
         setUpDropView()
-        
-        let backBarItem = UIBarButtonItem(
-            image: UIImage(named: "left_back_icon.png"),
-            style: .plain,
-            target: self,
-            action: #selector(backAction))
-        
-        navigationItem.leftBarButtonItem = backBarItem
-        navigationItem.leftBarButtonItem?.tintColor = .black
     }
-    
-    @objc func backAction() {
-        navigationController?.popViewController(animated: true)
-    }
-    
+
     func configDropData() {
         data1.append(ComponentsTestModel(title: "全部市场"))
         data2.append(ComponentsTestModel(title: "全部员工"))

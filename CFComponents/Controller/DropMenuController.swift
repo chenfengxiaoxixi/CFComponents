@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DropMenuController: UIViewController {
+class DropMenuController: BaseViewController {
 
     var dropView: ESDropMenuView!
     var options1: [ComponentsTestModel] = []
@@ -16,8 +16,6 @@ class DropMenuController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .themeBackGround()
         
         configOptionsData()
         
@@ -33,15 +31,6 @@ class DropMenuController: UIViewController {
         dropView.delegate = self
         dropView.dataSource = self
         view.addSubview(dropView)
-        
-        let backBarItem = UIBarButtonItem(
-            image: UIImage(named: "left_back_icon.png"),
-            style: .plain,
-            target: self,
-            action: #selector(backAction))
-        
-        navigationItem.leftBarButtonItem = backBarItem
-        navigationItem.leftBarButtonItem?.tintColor = .black
     }
     
     func configOptionsData() {
@@ -55,10 +44,6 @@ class DropMenuController: UIViewController {
             options2.append(ComponentsTestModel(title: "市场\(i)"))
             options3.append(ComponentsTestModel(title: "状态\(i)"))
         }
-    }
-    
-    @objc func backAction() {
-        navigationController?.popViewController(animated: true)
     }
 }
 

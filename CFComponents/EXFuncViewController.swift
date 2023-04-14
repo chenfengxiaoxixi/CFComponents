@@ -127,6 +127,11 @@ extension ViewController {
             let vc = CompoundComponentController()
             vc.title = "复合组件"
             navigationController?.pushViewController(vc, animated: true)
+        case "滚动图表":
+            
+            let vc = ScrollChartViewController()
+            vc.title = "滚动图表"
+            navigationController?.pushViewController(vc, animated: true)
             
         default:()
             

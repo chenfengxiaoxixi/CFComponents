@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0079CC29E9470700636F51 /* PMRightChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079C729E9470700636F51 /* PMRightChartCell.swift */; };
+		5F0079CD29E9470700636F51 /* PMRightChartHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079C829E9470700636F51 /* PMRightChartHeader.swift */; };
+		5F0079CE29E9470700636F51 /* PMLinkedChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079C929E9470700636F51 /* PMLinkedChart.swift */; };
+		5F0079CF29E9470700636F51 /* PMLeftChartHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079CA29E9470700636F51 /* PMLeftChartHeader.swift */; };
+		5F0079D029E9470700636F51 /* PMLeftChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079CB29E9470700636F51 /* PMLeftChartCell.swift */; };
+		5F0079D229E947B300636F51 /* ReuseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079D129E947B300636F51 /* ReuseCell.swift */; };
+		5F0079D429E948AE00636F51 /* ScrollChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079D329E948AE00636F51 /* ScrollChartViewController.swift */; };
+		5F0079D629E94DD200636F51 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0079D529E94DD200636F51 /* BaseViewController.swift */; };
 		5F19B0F029768CB600B78A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B0EF29768CB600B78A23 /* AppDelegate.swift */; };
 		5F19B0F229768CB600B78A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B0F129768CB600B78A23 /* SceneDelegate.swift */; };
 		5F19B0F429768CB600B78A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19B0F329768CB600B78A23 /* ViewController.swift */; };
@@ -49,6 +57,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0079C729E9470700636F51 /* PMRightChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMRightChartCell.swift; sourceTree = "<group>"; };
+		5F0079C829E9470700636F51 /* PMRightChartHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMRightChartHeader.swift; sourceTree = "<group>"; };
+		5F0079C929E9470700636F51 /* PMLinkedChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMLinkedChart.swift; sourceTree = "<group>"; };
+		5F0079CA29E9470700636F51 /* PMLeftChartHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMLeftChartHeader.swift; sourceTree = "<group>"; };
+		5F0079CB29E9470700636F51 /* PMLeftChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMLeftChartCell.swift; sourceTree = "<group>"; };
+		5F0079D129E947B300636F51 /* ReuseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseCell.swift; sourceTree = "<group>"; };
+		5F0079D329E948AE00636F51 /* ScrollChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollChartViewController.swift; sourceTree = "<group>"; };
+		5F0079D529E94DD200636F51 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5F19B0EC29768CB600B78A23 /* CFComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F19B0EF29768CB600B78A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F19B0F129768CB600B78A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +119,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0079C629E9468300636F51 /* ScrollChart */ = {
+			isa = PBXGroup;
+			children = (
+				5F0079C929E9470700636F51 /* PMLinkedChart.swift */,
+				5F0079CB29E9470700636F51 /* PMLeftChartCell.swift */,
+				5F0079CA29E9470700636F51 /* PMLeftChartHeader.swift */,
+				5F0079C729E9470700636F51 /* PMRightChartCell.swift */,
+				5F0079C829E9470700636F51 /* PMRightChartHeader.swift */,
+			);
+			path = ScrollChart;
+			sourceTree = "<group>";
+		};
 		5F19B0E329768CB600B78A23 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +169,7 @@
 		5F19B103297692B500B78A23 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5F0079D129E947B300636F51 /* ReuseCell.swift */,
 				5F19B1042976934500B78A23 /* UIView+Extension.swift */,
 				5F19B10E29769A2A00B78A23 /* UIColor+Extension.swift */,
 				5F19B1302977DAAB00B78A23 /* String+Extension.swift */,
@@ -161,6 +190,7 @@
 		5F19B10B297696DD00B78A23 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5F0079C629E9468300636F51 /* ScrollChart */,
 				5F19B13E2977EC7C00B78A23 /* ESSearchController */,
 				5F19B1342977E0A200B78A23 /* ESDropMenuView */,
 				5F19B1292977DA1200B78A23 /* ESDatePickerView */,
@@ -227,8 +257,10 @@
 		5F19B13B2977E1BF00B78A23 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5F0079D529E94DD200636F51 /* BaseViewController.swift */,
 				5F19B13C2977E21400B78A23 /* DropMenuController.swift */,
 				5F19B1512978E18900B78A23 /* CompoundComponentController.swift */,
+				5F0079D329E948AE00636F51 /* ScrollChartViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -322,18 +354,23 @@
 			files = (
 				5F19B12E2977DA4300B78A23 /* ESDatePickerView.swift in Sources */,
 				5F19B14C2977EDBC00B78A23 /* Array+Extension.swift in Sources */,
+				5F0079D429E948AE00636F51 /* ScrollChartViewController.swift in Sources */,
 				5F19B10F29769A2A00B78A23 /* UIColor+Extension.swift in Sources */,
 				5F19B10D2976972B00B78A23 /* CFAlertView.swift in Sources */,
 				5F19B1482977ED1F00B78A23 /* ESSearchController.swift in Sources */,
 				5F19B13A2977E0D000B78A23 /* ESDropMenuProtocolImplement.swift in Sources */,
+				5F0079CC29E9470700636F51 /* PMRightChartCell.swift in Sources */,
 				5F19B1382977E0D000B78A23 /* EDDropMenuAnimationFunc.swift in Sources */,
+				5F0079D629E94DD200636F51 /* BaseViewController.swift in Sources */,
 				5F19B14E2978D42D00B78A23 /* ESPictureZoomController.swift in Sources */,
+				5F0079CD29E9470700636F51 /* PMRightChartHeader.swift in Sources */,
 				5F19B1542978E25100B78A23 /* PMLeftSlidingController.swift in Sources */,
 				5F19B1522978E18900B78A23 /* CompoundComponentController.swift in Sources */,
 				5F19B1282977D1E300B78A23 /* TransitionAnimator.swift in Sources */,
 				5F19B1452977ED1F00B78A23 /* ESHistoryCollectionCell.swift in Sources */,
 				5F19B1182977923D00B78A23 /* EXFuncViewController.swift in Sources */,
 				5F19B1462977ED1F00B78A23 /* ESHistoryCollectionFlowLayout.swift in Sources */,
+				5F0079CE29E9470700636F51 /* PMLinkedChart.swift in Sources */,
 				5F19B1252977D1E300B78A23 /* ESPopupBottomListController.swift in Sources */,
 				5F19B13D2977E21400B78A23 /* DropMenuController.swift in Sources */,
 				5F19B11A297792DC00B78A23 /* EXProtocolViewController.swift in Sources */,
@@ -345,12 +382,15 @@
 				5F19B1502978DC6500B78A23 /* ESDropListView.swift in Sources */,
 				5F19B1392977E0D000B78A23 /* ESDropMenuView.swift in Sources */,
 				5F19B11529778FEE00B78A23 /* PMSingleSelectController.swift in Sources */,
+				5F0079CF29E9470700636F51 /* PMLeftChartHeader.swift in Sources */,
 				5F19B1272977D1E300B78A23 /* PresentationController.swift in Sources */,
+				5F0079D029E9470700636F51 /* PMLeftChartCell.swift in Sources */,
 				5F19B1492977ED1F00B78A23 /* ESSearchProtocolImplement.swift in Sources */,
 				5F19B1262977D1E300B78A23 /* PresentationManager.swift in Sources */,
 				5F19B0F029768CB600B78A23 /* AppDelegate.swift in Sources */,
 				5F19B14A2977ED1F00B78A23 /* SearchCacheManager.swift in Sources */,
 				5F19B1052976934500B78A23 /* UIView+Extension.swift in Sources */,
+				5F0079D229E947B300636F51 /* ReuseCell.swift in Sources */,
 				5F19B1332977DABD00B78A23 /* Date+Extension.swift in Sources */,
 				5F19B0F229768CB600B78A23 /* SceneDelegate.swift in Sources */,
 			);
